@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>No hay un Yo sin un Tú</title>
+<meta name="description" content="Tú y Yo en la realidad del Otro. Dos sistemas de visión artificial interactuando en tiempo real.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>No hay un Yo sin un Tú</h1>
+  <p class="lede">Tú y Yo en la realidad del Otro.</p>
+</header>
+
+<main>
+
+  <section class="controls">
+    <div class="btn-wrapper" id="cameraBtnWrapper">
+      <button class="btn" id="startBtn" type="button">
+        <span class="btn-txt">Cámara</span>
+        <div class="dot pulse" id="cameraDot"></div>
+      </button>
+    </div>
+    <p id="statusMsg" class="status" role="status" aria-live="polite">La cámara aún no está activa.</p>
+  </section>
+
+  <section class="stage" id="stage">
+    <article class="panel" id="panelA">
+      <div class="panel-head">
+        <h2>Individualidad</h2>
+      </div>
+      <div class="canvas-wrap">
+        <canvas id="canvasA" width="640" height="480"></canvas>
+      </div>
+      <p class="caption"><span id="statA"></span></p>
+    </article>
+
+    <article class="panel" id="panelB">
+      <div class="panel-head">
+        <h2>Colectividad</h2>
+      </div>
+      <div class="canvas-wrap">
+        <canvas id="canvasB" width="640" height="480"></canvas>
+      </div>
+      <p class="caption"><span id="statB"></span></p>
+    </article>
+  </section>
+
+  <section class="reflection-section">
+    <h2>¿Existe una identidad individual sin la presencia del otro?</h2>
+    <p>
+      Para que exista un Yo, primero debe manifestarse un Tú. Georg Hegel plantea que la certeza de nuestra propia existencia no surge en el aislamiento, sino en la mirada y el reconocimiento del otro. Sin un reflejo, la autoconciencia permanece incompleta.
+    </p>
+    <p>
+      Este ejercicio explora esa interdependencia. Las pantallas permanecen en oscuridad hasta que dos rostros habiten el encuadre, es la presencia mutua lo que activa la experiencia. La interfaz divide la experiencia en dos representaciones visuales paralelas:
+    </p>
+    <p>
+      <strong>La pantalla de la Individualidad:</strong> Muestra a ambos rostros por separado, validando la presencia individual de cada persona dentro del encuadre.
+    </p>
+    <p>
+      <strong>La pantalla de la Colectividad:</strong> Fusiona las formas en una sola abstracción cromática, donde los límites del "yo" y el "tú" se borran para dar lugar a una existencia compartida.
+    </p>
+    <p>
+      El ejercicio plantea que no somos entidades cerradas, sino procesos que se completan y transforman en la realidad del otro.
+    </p>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <p>Código fuente: <a id="repoLink" href="https://github.com/DebSkar/Rerealidad" target="_blank" rel="noopener">DebSkar/Rerealidad</a></p>
+  <p class="credit">Débora Soto V. - DPPI 2026 - Escuela de Diseño UDP</p>
+</footer>
+
+<video id="video" playsinline autoplay muted></video>
+<canvas id="hiddenSample" width="48" height="36"></canvas>
+
+<script type="module" src="script.js"></script>
+</body>
+</html>
