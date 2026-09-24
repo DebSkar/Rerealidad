@@ -22,13 +22,6 @@ Este ejercicio explora esa interdependencia. Las pantallas permanecen en oscurid
 
 El ejercicio plantea que no somos entidades cerradas, sino procesos que se completan y transforman en la realidad del otro.
 
-## Cómo probarlo
-
-En Visual Studio Code:
-1. Abre la carpeta del proyecto.
-2. Haz clic derecho en `index.html` y selecciona **"Open with Live Server"** (o usa el botón "Go Live" en la barra inferior).
-3. Acepta el permiso de cámara y presiona el botón **"Cámara"**.
-
 ## Tecnologías
 
 MediaPipe Tasks Vision (BlazeFace Short Range vía CDN) y Canvas 2D con JavaScript puro, sin frameworks ni build.
