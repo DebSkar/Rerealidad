@@ -1,8 +1,7 @@
 # No hay un Yo sin un Tú
+## Tú y Yo en la realidad del Otro. 
 
-Tú y Yo en la realidad del Otro. 
-
-**Repo:** [https://github.com/DebSkar/Rerealidad](https://github.com/DebSkar/Rerealidad)
+**Repo:** [https://github.com/DebSkar/Rerealidad](https://github.com/DebSkar/Rerealidad)  **Demo:**  
 
 ## De qué se trata
 
@@ -21,13 +20,6 @@ Este ejercicio explora esa interdependencia. Las pantallas permanecen en oscurid
 * **La pantalla de la Colectividad:** Fusiona las formas en una sola abstracción cromática, donde los límites del "yo" y el "tú" se borran para dar lugar a una existencia compartida.
 
 El ejercicio plantea que no somos entidades cerradas, sino procesos que se completan y transforman en la realidad del otro.
-
-## Cómo probarlo
-
-En Visual Studio Code:
-1. Abre la carpeta del proyecto.
-2. Haz clic derecho en `index.html` y selecciona **"Open with Live Server"** (o usa el botón "Go Live" en la barra inferior).
-3. Acepta el permiso de cámara y presiona el botón **"Cámara"**.
 
 ## Tecnologías
 
