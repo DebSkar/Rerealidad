@@ -1,7 +1,8 @@
 # No hay un Yo sin un Tú
 ## Tú y Yo en la realidad del Otro. 
 
-**Repo:** [https://github.com/DebSkar/Rerealidad](https://github.com/DebSkar/Rerealidad)  **Demo:**  
+**Repo:** [https://github.com/DebSkar/Rerealidad](https://github.com/DebSkar/Rerealidad)  
+**Demo:**  https://debskar.github.io/Rerealidad/
 
 ## De qué se trata
 
